@@ -6,6 +6,6 @@ class StudentsController < ApplicationController
   def show
       binding.pry
     @student = params[:id]
-    binding.pry
+    
   end
 end
